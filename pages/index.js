@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Head from 'next/head';
 import Sidebar from '../components/Sidebar.js'; 
+import Feed from './Feed.js';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       
       <main className='flax min-h-screen mx-auto'>
         <Sidebar />
+        <Feed />
       </main>
     </div>
   )
